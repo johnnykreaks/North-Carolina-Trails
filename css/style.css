@@ -1,0 +1,180 @@
+* {
+	padding:0;
+	margin:0;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+	
+}
+#container {
+	
+}
+header {
+	background:linear-gradient(rgba(20,20,20, .7), rgba(20,20,20, .7)), url(../img/header.jpg) no-repeat;
+	background-position:center center;
+	background-size:cover;
+	height:100vh;
+	width:100vw;
+	color:white;
+}
+header h1, header p {
+	text-align:center;
+}
+header h1 {
+	font-family:Roboto, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	padding-top:19.5%;
+	font-size:3em;
+}
+header p {
+	font-family:sans-serif;
+	font-size:1.5em;
+}
+#directory {
+	padding:2em 1em;
+	background:url(../img/pattern.png) repeat;
+}
+#directory h2 {
+	font-family:Roboto, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	text-align:center;
+	font-size:2.5em;
+	color:white;
+}
+main  {
+	background:rgba(255, 255, 255, 0.3);
+	width:75%;
+	margin:0.75em auto 1.5em auto;
+	display:flex;
+	flex-wrap:wrap;
+	flex-position:row;
+	justify-content:space-around;
+}
+section {
+	border:5px solid white;
+	margin:1em;
+	height:200px;
+	width:200px;
+}
+section h3 {
+	padding:1em;
+	font-family:Roboto, sans-serif;
+	padding-top:20.5%;
+	text-align:center;
+	color:white;
+}
+main a {
+	text-decoration:none;
+}
+main a:nth-of-type(1) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/1/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(1) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/1/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(2) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/2/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(2) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/2/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(3) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/3/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(3) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/3/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(4) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/4/1.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(4) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/4/1.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(5) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/5/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(5) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/5/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(6) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/6/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(6) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/6/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(7) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/7/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(7) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/7/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(8) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/8/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(8) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/8/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(9) section {
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/9/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+main a:nth-of-type(9) section:hover {
+	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/9/2.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
