@@ -6,17 +6,13 @@ html {
     overflow-x: hidden;
 }
 body {
-	
+	padding-top:800px;
 }
-#container {
-	
-}
+/* HEADER */
 header {
 	background:linear-gradient(rgba(20,20,20, .7), rgba(20,20,20, .7)), url(../img/header.jpg) no-repeat;
-	background-position:center center;
 	background-size:cover;
 	height:100vh;
-	width:100vw;
 	color:white;
 }
 header h1, header p {
@@ -26,13 +22,67 @@ header h1 {
 	font-family:Roboto, sans-serif;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
-	padding-top:19.5%;
+	padding-top:20.5%;
 	font-size:3em;
 }
 header p {
 	font-family:sans-serif;
 	font-size:1.5em;
 }
+.disappear {
+	display:none;
+}
+/* NAVIGATION */
+nav, #directory, footer {
+	position:relative;
+}
+.nav_scrolled, header {
+	width:100vw;
+	position:fixed;
+	top:0;
+}
+nav {
+	width:100vw;
+	z-index:150;
+	box-shadow: 0 2px 3px rgba(255, 255, 255, 0.4);
+	border-top:5px solid black;
+	border-bottom:5px solid black;
+	background-color:black;
+}
+nav ul {
+	font-family:Roboto, sans-serif;
+	margin:auto;
+	width:75%;
+	display:flex;
+	flex-wrap:wrap;
+	flex-position:row;
+	justify-content:space-around;
+}
+nav li {
+	position:relative;
+	bottom:0.3em;
+	margin-left:0.2em;
+	display:inline;
+	font-size:2.3em;
+	text-align:center;
+	list-style-type:none;
+	text-transform:uppercase;
+}
+nav a {
+	background-color:white;
+	width:33%;
+	border:1px solid white;
+	text-decoration:none;
+	color:black;
+}
+nav a:hover {
+	background-color:grey;
+}
+nav a img {
+	display:inline;
+	margin:auto;
+}
+/* DIRECTORY */
 #directory {
 	padding:2em 1em;
 	background:url(../img/pattern.png) repeat;
@@ -160,8 +210,62 @@ main a:nth-of-type(9) section:hover {
 	background-position:center center;
 	background-size:cover;
 }
-
-
+/* FOOTER */
+footer {
+	font-size:120%;
+	font-family:sans-serif;
+	background:rgba(255, 255, 255, 0.6);
+	padding:0.5em;
+	margin:2em 0em;
+}
+footer h4 {
+	font-size:1.3em;
+	text-transform:uppercase;
+}
+footer #ideas a, footer #gear a {
+	text-indent:1em;
+	text-decoration:none;
+	color:black;
+}
+footer #ideas li, footer #gear li {
+	list-style-type:none;
+}
+footer #social {
+	float:right;
+}
+footer #social img {
+	opacity:0.6;
+	width:25px;
+	height:25px;
+}
+footer #social img:hover {
+	opacity:1.0;
+}
+footer #bottom {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:center;
+}
+footer #bottom li {
+	margin:0em 2em;
+	list-style-type:none;
+}
+footer #bottom a {
+	text-decoration:none;
+	color:black;
+	clear:both;
+}
+#main_footer {
+	padding:3em 0em;
+	display:flex;
+	flex-wrap:wrap;
+	flex-position:row;
+	justify-content:space-around;
+}
+#main_footer li {
+	list-style-type:none;
+}
 
 
 
