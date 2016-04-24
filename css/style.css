@@ -256,8 +256,11 @@ footer #bottom li {
 }
 footer #bottom a {
 	text-decoration:none;
-	color:black;
+	color:#151515;
 	clear:both;
+}
+footer #bottom a:hover {
+	color:black;
 }
 #main_footer {
 	padding:3em 0em;
