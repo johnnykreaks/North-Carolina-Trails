@@ -31,7 +31,7 @@ header h1 {
 	font-family:Roboto, sans-serif;
 	letter-spacing:0.05em;
 }
-#content img {
+#content main > img {
 	margin: 0em 2em 2em 0em;
 	float:left;
 	width:350px;
@@ -48,10 +48,26 @@ header h1 {
 	font-family:sans-serif;
 	padding:0.4em;
 }
-
-
-
-
+/* PHOTOS */
+#photos {
+	
+}
+#photos ul {
+	margin:auto;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:center;
+}
+#photos ul li {
+	margin:3em 0.05em 1em 0.05em;
+	list-style-type:none;
+}
+#photos ul li img {
+	width:8em;
+	height:8em;
+	border:1px solid black;
+}
 
 
 
