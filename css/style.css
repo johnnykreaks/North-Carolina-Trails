@@ -95,7 +95,7 @@ nav a img {
 	font-size:2.5em;
 	color:white;
 }
-main  {
+#directory main  {
 	background:rgba(255, 255, 255, 0.3);
 	width:75%;
 	margin:0.75em auto 1.5em auto;
@@ -104,108 +104,108 @@ main  {
 	flex-position:row;
 	justify-content:space-around;
 }
-section {
+#directory section {
 	border:5px solid white;
 	margin:1em;
 	height:200px;
 	width:200px;
 }
-section h3 {
+#directory section h3 {
 	padding:1em;
 	font-family:Roboto, sans-serif;
 	padding-top:20.5%;
 	text-align:center;
 	color:white;
 }
-main a {
+#directory main a {
 	text-decoration:none;
 }
-main a:nth-of-type(1) section {
+#directory main a:nth-of-type(1) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/1/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(1) section:hover {
+#directory main a:nth-of-type(1) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/1/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(2) section {
+#directory main a:nth-of-type(2) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/2/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(2) section:hover {
+#directory main a:nth-of-type(2) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/2/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(3) section {
+#directory main a:nth-of-type(3) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/3/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(3) section:hover {
+#directory main a:nth-of-type(3) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/3/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(4) section {
+#directory main a:nth-of-type(4) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/4/1.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(4) section:hover {
+#directory main a:nth-of-type(4) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/4/1.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(5) section {
+#directory main a:nth-of-type(5) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/5/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(5) section:hover {
+#directory main a:nth-of-type(5) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/5/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(6) section {
+#directory main a:nth-of-type(6) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/6/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(6) section:hover {
+#directory main a:nth-of-type(6) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/6/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(7) section {
+#directory main a:nth-of-type(7) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/7/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(7) section:hover {
+#directory main a:nth-of-type(7) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/7/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(8) section {
+#directory main a:nth-of-type(8) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/8/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(8) section:hover {
+#directory main a:nth-of-type(8) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/8/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(9) section {
+#directory main a:nth-of-type(9) section {
 	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/9/2.jpg);
 	background-position:center center;
 	background-size:cover;
 }
-main a:nth-of-type(9) section:hover {
+#directory main a:nth-of-type(9) section:hover {
 	background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/9/2.jpg);
 	background-position:center center;
 	background-size:cover;
@@ -222,12 +222,15 @@ footer h4 {
 	font-size:1.3em;
 	text-transform:uppercase;
 }
-footer #ideas a, footer #gear a {
+footer #ideas a, footer #gear a, footer #directory_footer a  {
 	text-indent:1em;
 	text-decoration:none;
+	color:#151515;
+}
+footer #ideas a:hover, footer #gear a:hover, footer #directory_footer a:hover {
 	color:black;
 }
-footer #ideas li, footer #gear li {
+footer #ideas li, footer #gear li, footer #directory_footer li  {
 	list-style-type:none;
 }
 footer #social {

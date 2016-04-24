@@ -1,0 +1,62 @@
+* {
+	
+}
+body {
+	
+}
+/* HEADER */
+header {
+	background-size:cover;
+	height:100vh;
+	color:white;
+}
+header h1 {
+	text-align:center;
+	font-family:Roboto, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	padding-top:20.5%;
+	font-size:3em;
+}
+/* CONTENT */
+#content {
+	font-family:Roboto, sans-serif;
+	position:relative;
+	padding:5em 1em;
+	background:url(../../img/pattern.png) repeat;
+	color:black;
+}
+#content h2 {
+	font-size:2em;
+	font-family:Roboto, sans-serif;
+	letter-spacing:0.05em;
+}
+#content img {
+	margin: 0em 2em 2em 0em;
+	float:left;
+	width:350px;
+	height:350px;
+	border:5px solid black;
+}
+#content main {
+	width:75%;
+	margin:auto;
+	background:rgba(255, 255, 255, 0.6);
+	padding:2em;
+}
+#content main p {
+	font-family:sans-serif;
+	padding:0.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
